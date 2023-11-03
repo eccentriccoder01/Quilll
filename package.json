@@ -1,0 +1,20 @@
+{
+  "name": "quillquest",
+  "version": "1.0.0",
+  "description": "A diverse and informative blog platform offering a wide range of articles and expert insights for readers seeking knowledge and inspiration.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "keywords": [],
+  "author": "Eccentric Explorer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  }
+}
