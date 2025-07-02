@@ -8,7 +8,7 @@ app.get('/api/articles/:name', async (req,res) => {
     try {
         const articleName = req.params.name;
         const client = await MongoClient.connect('mongodb://localhost:27017');
-        const db = client.db("quillquest");
+        const db = client.db("quilll");
         const articleInfo = await db
         .collection('articles')
         .findOne({name: articleName});
